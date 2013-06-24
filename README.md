@@ -12,9 +12,9 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 'constant' => array('auto' => true),
 ```
 
-# Usage 
+## Usage 
 
-- #Constant::day();
+### Constant::day();
 
 ```php
 {{ Form::select('date', Constant::day()); }}
@@ -24,7 +24,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-- #Constant::month();
+### #Constant::month();
 
 ```php
 {{ Form::select('month', Constant::month()); }}
@@ -34,7 +34,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-- #Constant::month_alpha();
+### #Constant::month_alpha();
 
 ```php
 {{ Form::select('month', Constant::month_alpha()); }}
@@ -44,7 +44,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-- #Constant::month_numbers();
+### #Constant::month_numbers();
 
 ```php
 {{ Form::select('month', Constant::month_numbers()); }}
@@ -54,7 +54,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-- #Constant::month_numbers();
+### #Constant::month_numbers();
 
 ```php
 {{ Form::select('year', Constant::year()); }}
