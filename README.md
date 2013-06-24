@@ -14,50 +14,50 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 
 # Usage 
 
-- Constant::day();
+- #Constant::day();
 
 ```php
-{{ Form::select('date', Constant::day())); }}
+{{ Form::select('date', Constant::day()); }}
 // <select name='date'> 
 // <option value="01">01</option>
 // ...
 // </select>
 ```
 
-- Constant::month();
+- #Constant::month();
 
 ```php
-{{ Form::select('month', Constant::month())); }}
+{{ Form::select('month', Constant::month()); }}
 // <select name='month'> 
 // <option value="1">Jan</option>
 // ...
 // </select>
 ```
 
-- Constant::month_alpha();
+- #Constant::month_alpha();
 
 ```php
-{{ Form::select('month', Constant::month_alpha())); }}
+{{ Form::select('month', Constant::month_alpha()); }}
 // <select name='month'> 
 // <option value="Jan">Jan</option>
 // ...
 // </select>
 ```
 
-- Constant::month_numbers();
+- #Constant::month_numbers();
 
 ```php
-{{ Form::select('month', Constant::month_numbers())); }}
+{{ Form::select('month', Constant::month_numbers()); }}
 // <select name='month'> 
 // <option value="01">01</option>
 // ...
 // </select>
 ```
 
-- Constant::month_numbers();
+- #Constant::month_numbers();
 
 ```php
-{{ Form::select('year', Constant::year())); }}
+{{ Form::select('year', Constant::year()); }}
 // <select name='year'> 
 // <option value="2010">2010</option>
 // ...
@@ -76,7 +76,7 @@ By default, you will have 3 options in the year option.
 
 You can specify the number of options you want (going backward).
 ```php
-{{ Form::select('year', Constant::year(10))); }}
+{{ Form::select('year', Constant::year(10)); }}
 // This year is 2013. 10 options from 2013, the drop down will begin with 2004.
 // <select name='year'> 
 // <option value="2004">2004</option>
