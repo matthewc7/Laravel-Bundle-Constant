@@ -1,7 +1,7 @@
 # Laravel-Bundle-Constant #
 =======================
 
-Prepare constant options for <select> drop down for date, month and year in Laravel. Many times we may need to put in the drop down data for date, month and year in a <select> option. This is a helper that produces the data for <select> options with a simple line of code. 
+Prepare constant options for 'select' drop down for date, month and year in Laravel. Many times we may need to put in the drop down data for date, month and year in a 'select' option. This is a helper that produces the data for 'select' options with a simple line of code. 
 
 
 ## Configuration ##
