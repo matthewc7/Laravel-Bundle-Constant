@@ -24,7 +24,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-###### #Constant::month(); ######
+###### Constant::month(); ######
 
 ```php
 {{ Form::select('month', Constant::month()); }}
@@ -34,7 +34,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-###### #Constant::month_alpha(); ######
+###### Constant::month_alpha(); ######
 
 ```php
 {{ Form::select('month', Constant::month_alpha()); }}
@@ -44,7 +44,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-###### #Constant::month_numbers(); ######
+###### Constant::month_numbers(); ######
 
 ```php
 {{ Form::select('month', Constant::month_numbers()); }}
@@ -54,7 +54,7 @@ Place this bundle in the bundles directory. Then config the constant bundle in t
 // </select>
 ```
 
-###### #Constant::month_numbers(); 
+###### Constant::month_numbers(); 
 
 ```php
 {{ Form::select('year', Constant::year()); }}
@@ -74,7 +74,7 @@ By default, you will have 3 options in the year option.
 </select>
 ```
 
-You can specify the number of options you want (going backward).
+You can specify the number of options you want (going backward). For exmaple, 
 ```php
 {{ Form::select('year', Constant::year(10)); }}
 // This year is 2013. 10 options from 2013, the drop down will begin with 2004.
